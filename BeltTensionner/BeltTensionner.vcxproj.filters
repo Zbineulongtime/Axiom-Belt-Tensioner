@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BeltTensionner.ino" />
+    <ClCompile Include="AxisDriver.h">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FastAccelStepper\AVRStepperPins.h">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FastAccelStepper\common.h">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FastAccelStepper\FastAccelStepper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FastAccelStepper\FastAccelStepper.h">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FastAccelStepper\fas_common.h">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FastAccelStepper\PoorManFloat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FastAccelStepper\PoorManFloat.h">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FastAccelStepper\RampCalculator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FastAccelStepper\RampCalculator.h">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FastAccelStepper\RampConstAcceleration.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FastAccelStepper\RampConstAcceleration.h">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FastAccelStepper\RampGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FastAccelStepper\RampGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FastAccelStepper\StepperISR.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FastAccelStepper\StepperISR.h">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FastAccelStepper\StepperISR_avr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FastAccelStepper\StepperISR_due.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FastAccelStepper\StepperISR_esp32.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FastAccelStepper\StepperISR_esp32c3_rmt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FastAccelStepper\StepperISR_esp32s3_rmt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FastAccelStepper\StepperISR_esp32_mcpwm_pcnt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FastAccelStepper\StepperISR_esp32_rmt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FastAccelStepper\test_probe.h">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="__vm\.BeltTensionner.vsarduino.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
